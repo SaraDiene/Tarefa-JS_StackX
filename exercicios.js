@@ -73,9 +73,7 @@ function max(a, b) {
     return b;
   }
 }
-
 // -------------------------------------
-
 /**
  * Função que concatena 2 strings utilizando template strings
  * @param {string} a - A primeira string
@@ -84,14 +82,12 @@ function max(a, b) {
  */
 function strConcat(a, b) {
   // @todo implementar retorno da operação aqui
-  return  a + " " + b
+  return  `${a} ${b}`
 }
-
 // --------------------------------------
-
 /**
  * Função que implementa controle de fluxo
- * 
+ * teste
  * @param {number} numero - O número em questão
  * @returns {string} 
  *  - "Maior que 10" quando o número é maior que 10
@@ -123,7 +119,7 @@ function ehPositivo(num) {
   if (num > 0){
     return true;
   }
-  else{
+  else{ 
     return false;
   }
 }
